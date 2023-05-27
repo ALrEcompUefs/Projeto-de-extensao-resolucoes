@@ -1,0 +1,32 @@
+Resolução CONSU e CONSEP
+- Número
+- Ano da resolução
+- Data de publicação
+- Reitor
+- cabeçalho : texto que vem antes do 'resolve:'
+- Texto 
+- link do pdf 
+
+Resolução CONSU e CONSEP
+- Número
+
+
+GERENCIAMENTO DE USUARIO
+Cadastrar:
+	-nome login email e senha
+	- validar email ??
+	- checar se esta logado
+ Administrador:
+	- Administrador cadastra novos usuarios
+	- listar usuarios
+	- Alterar senha de usuarios
+Usuarios:
+	- alterar email e senha
+Ao realizar login o gereciamento de usuario deve ennviar token de login para a tela de cadastro e busca
+
+CADASTRO
+	- Realiza login do usuario( comunicação com gerenciamento de usuario)
+	- ADM:
+		- cadastra arquivo de resoluções.zip
+	- extrair zip, gerar link de acesso as resoluções em pdf
+	- Vai possuir uma base de dados com os pdfs das resoluções (sugestão google drive)
