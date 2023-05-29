@@ -70,7 +70,7 @@
 <p>Funcionalidades do sistema:</p>
 
 <ul>
-    <li>Recebe uma requisição formatada no modelo json <strong>esquema_dados_modulo_extracao.json e armazena no banco de dados.</strong></li>
+    <li>Recebe uma requisição formatada no modelo json <strong>esquema_dados_modulo_extracao.json.</strong> e armazena no banco de dados</li>
     <li>Resoluções  já existentes no banco não devem ser cadastradas.</li>
     <li>O sistema deve indexar os dados.</li>
     <li>Deve permitir consulta dos dados, vai receber um json com dados chave para consulta e realizar a query correspondente.</li>
