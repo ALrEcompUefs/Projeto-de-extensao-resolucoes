@@ -48,7 +48,7 @@
 <ul>
     <li>Acessa o armazenamento de resoluções e faz a extração dos dadas de cada resolução uma a uma.</li>
     <li>Função definida: recebe como parâmetro um arquivo pdf e retorna um json de resposta com os dados do pdf.</li>
-    <li>O formato do json segue o padrão definido no arquivo: esquema_dados_modulo_extracao.json na pasta modelos.</li>
+    <li>O formato do json segue o padrão definido no arquivo: <strong>esquema_dados_modulo_extracao.json na pasta modelos</strong>.</li>
 </ul>
 
 <h3>Cadastro</h3>
@@ -70,7 +70,7 @@
 <p>Funcionalidades do sistema:</p>
 
 <ul>
-    <li>Recebe uma requisição formatada no modelo json esquema_dados_modulo_extracao.json e armazena no banco de dados.</li>
+    <li>Recebe uma requisição formatada no modelo json <strong>esquema_dados_modulo_extracao.json e armazena no banco de dados.</strong></li>
     <li>Resoluções  já existentes no banco não devem ser cadastradas.</li>
     <li>O sistema deve indexar os dados.</li>
     <li>Deve permitir consulta dos dados, vai receber um json com dados chave para consulta e realizar a query correspondente.</li>
