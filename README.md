@@ -12,12 +12,15 @@
 
 <ul>
 <li> <a  target="_blank"href="https://sites.google.com/a/ecomp.uefs.br/joao/home/courses/exa844">Site da disciplina</li><a>
-<li><a  target="_blank" href="https://www.uefs.br/modules/conteudo/conteudo.php?conteudo=146">Pagína com resoluções</a></li>
+<li><a  target="_blank" href="https://www.uefs.br/modules/conteudo/conteudo.php?conteudo=146">Página com resoluções</a></li>
 </ul>
 
 <hr>
 
 <h2>Módulos</h2>
+
+<h3>Diagrama do sistema</h3>
+<img src="imagens/diagrama.png" alt="diagrama de blocos do sistema" width="600" height="500" align="center">
 
 <h3>Gerenciamento de usuários </h3>
 <p>O módulo de gerenciamento de usuários é responsável pelo cadastro e controle de usuários, existem dois tipos de usuários: administrador e usuário, Administradores tem a função do controle de usuários no sistema enquanto usuários podem cadastrar resoluções e alterar seus dados cadastrais.</p>
