@@ -45,7 +45,9 @@
 
 <p>Funcionalidades do sistema:</p>
 <ul>
-    <li>Recebe uma requisição do cadastro de resoluções que possui o link para um pdf baixa o pdf,faz a extração dos dados, formato do json recebido é <strong>esquema_requisicao_para_ocr</strong>.</li>
+    <li>Recebe uma requisição do cadastro de resoluções que possui o link para um pdf baixa o pdf,faz a extração dos dados, formato do json recebido é 
+        <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/tree/main/modelos_json">
+            <strong>esquema_requisicao_para_ocr</strong></a>.</li>
     <li>Função definida: recebe como parâmetro um arquivo pdf e retorna um json de resposta com os dados do pdf.</li>
     <li>O formato do json de resposta segue o padrão definido no arquivo: <strong>esquema_dados_modulo_extracao.json na pasta modelos</strong>.</li>
 </ul>
