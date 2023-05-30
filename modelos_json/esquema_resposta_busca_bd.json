@@ -1,0 +1,7 @@
+{
+	"ano":"ano da resolução",
+	"orgao":"orgão responsavel resolução, Consep ou Consu",
+	"descricao":"resumo que descreve o assunto tratado pela resolução",
+	"numero":"numero da resolução",
+	"link":"Link para o pdf da resolução que permita o seu download"
+}
