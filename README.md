@@ -50,7 +50,9 @@
     <li>Função definida: recebe como parâmetro um arquivo pdf e retorna um json de resposta com os dados do pdf.</li>
     <li>O formato do json segue o padrão definido no arquivo: <strong>esquema_dados_modulo_extracao.json na pasta modelos</strong>.</li>
 </ul>
-<p>
+
+<p>Na imagem abaixo é mostrado recorte de uma resolução e são destacados os dados que devem ser extraídos dos documentos com exceção do reitor que pode ser encontrado ao final do documento.</p>
+
 <img src="imagens/exemplo_resolucao_dgt.png" alt="imagem de uma Resolucao em fomrato pdf" width="600" height="400" align="center">
 <h3>Cadastro</h3>
 <p>O módulo de cadastro permite que os usuários com permissão possam cadastrar novas resoluções em formato zip informando ano e tipo da resolução no sistema, para ter acesso ao cadastro o usuário vai ter de realizar o login e autenticar sua sessão, as resoluções cadastradas devem estar disponíveis para acesso em formato pdf através de um link. </p>
