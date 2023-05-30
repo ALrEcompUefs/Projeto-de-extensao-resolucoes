@@ -20,7 +20,7 @@
 <h2>Módulos</h2>
 
 <h3>Diagrama do sistema</h3>
-<img src="imagens/diagrama.png" alt="diagrama de blocos do sistema" width="600" height="500" align="center">
+<img src="imagens/diagrama.png" alt="diagrama de blocos do sistema" width="800" height="500" align="center">
 
 <h3>Gerenciamento de usuários </h3>
 <p>O módulo de gerenciamento de usuários é responsável pelo cadastro e controle de usuários, existem dois tipos de usuários: administrador e usuário, Administradores tem a função do controle de usuários no sistema enquanto usuários podem cadastrar resoluções e alterar seus dados cadastrais.</p>
