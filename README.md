@@ -51,7 +51,7 @@
     <li>O formato do json segue o padrão definido no arquivo: <strong>esquema_dados_modulo_extracao.json na pasta modelos</strong>.</li>
 </ul>
 
-<p>Na imagem abaixo é mostrado recorte de uma resolução e são destacados os dados que devem ser extraídos dos documentos com exceção do reitor que pode ser encontrado ao final do documento.</p>
+<p>Na imagem abaixo é o mostrado recorte de uma resolução e são destacados os dados que devem ser extraídos dos documentos com exceção do reitor que pode ser encontrado ao final do documento.</p>
 
 <img src="imagens/exemplo_resolucao_dgt.png" alt="imagem de uma Resolucao em fomrato pdf" width="600" height="400" align="center">
 <h3>Cadastro</h3>
