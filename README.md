@@ -11,8 +11,8 @@
 <h4>Links de referência</h4>
 
 <ul>
-<li> <a href="https://sites.google.com/a/ecomp.uefs.br/joao/home/courses/exa844">Site da disciplina</li><a>
-<li><a href="https://www.uefs.br/modules/conteudo/conteudo.php?conteudo=146">Pagína com resoluções</a></li>
+<li> <a  target="_blank"href="https://sites.google.com/a/ecomp.uefs.br/joao/home/courses/exa844">Site da disciplina</li><a>
+<li><a  target="_blank" href="https://www.uefs.br/modules/conteudo/conteudo.php?conteudo=146">Pagína com resoluções</a></li>
 </ul>
 
 <hr>
