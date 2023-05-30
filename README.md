@@ -49,7 +49,9 @@
         <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/tree/main/modelos_json">
             <strong>esquema_requisicao_para_ocr</strong></a>.</li>
     <li>Função definida: recebe como parâmetro um arquivo pdf e retorna um json de resposta com os dados do pdf.</li>
-    <li>O formato do json de resposta segue o padrão definido no arquivo: <strong>esquema_dados_modulo_extracao.json na pasta modelos</strong>.</li>
+    <li>O formato do json de resposta segue o padrão definido no arquivo:
+         <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/tree/main/modelos_json">
+            <strong>esquema_dados_modulo_extracao.json na pasta modelos</strong></a>.</li>
 </ul>
 
 <p>Na imagem abaixo é o mostrado recorte de uma resolução e são destacados os dados que devem ser extraídos dos documentos com exceção do reitor que pode ser encontrado ao final do documento.</p>
@@ -66,7 +68,8 @@
     <li>Cadastro de resoluções em arquivo compactado (formato zip) informando o ano e tipo(CONSEP ou CONSU).</li>
     <li>Extrair o arquivo o zip e separar as resoluções por tipo e ano</li>
     <li>Disponibilizar acesso as resoluções em formato pdf com link de acesso(sugestão google drive)</li>
-    <li>Enviar requisições ao módulo OCR passando o link para pdf, utilizar json no formato <strong>esquema_requisicao_para_ocr</strong></li>
+    <li>Enviar requisições ao módulo OCR passando o link para pdf, utilizar json no formato 
+         <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/tree/main/modelos_json"><strong>esquema_requisicao_para_ocr</strong></a></li>
     <li>Enviar json de resoluções extraidas para o módulo de armazenamento cadastrar a nova resolução</li>
 </ul>
 
@@ -77,11 +80,12 @@
 <p>Funcionalidades:</p>
 
 <ul>
-    <li>Recebe uma requisição json <strong>esquema_dados_modulo_extracao.json.</strong> e armazena no banco de dados</li>
+    <li>Recebe uma requisição json  <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/tree/main/modelos_json"><strong>esquema_dados_modulo_extracao.json.</strong></a>
+     e armazena no banco de dados</li>
     <li>Resoluções  já existentes no banco não devem ser cadastradas.</li>
     <li>O sistema deve indexar os dados.</li>
     <li>Deve permitir consulta dos dados, vai receber um json com dados chave para consulta e realizar a query correspondente.</li>
     json deve ter os seguintes campos: keywords, from(data de início), to (data final)
-    <li>Deve retornar como resposta para uma requisição recebida um json com dados no formato *formato_não_estabelecido*</li>
+    <li>Deve retornar como resposta para uma requisição recebida um json com dados no formato  <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/tree/main/modelos_json">esquema_resposta_busca_bd</a></li>
 </ul>
 
