@@ -6,7 +6,7 @@
 <p>O projeto consiste no desenvolvimento de um engenho de busca para resoluções da UEFS, o sistema deve permite o cadastro de resoluções, busca de resoluções por ano , tipo, texto e etc.</p>
 <h3>Sobre o projeto</h3>
 
-<p>O projeto é dividido em quatro módulos individuais são eles: gerenciamento de usuários , armazenamento de dados, sistema de busca e módulo de extração de dados, a fim de que os módulos fossem desenvolvidos independentes um dos outros foi estabelecido que a comunicação entre módulos seria feita através de APIs construídas junto aos módulos.</p>
+<p>O projeto é dividido em quatro módulos individuais são eles: gerenciamento de usuários ,cadastro de resoluções ,armazenamento de dado e busca, módulo de extração de dados, a fim de que os módulos fossem desenvolvidos independentes um dos outros foi estabelecido que a comunicação entre módulos seria feita através de APIs construídas junto aos módulos.</p>
 
 <h4>Links de referência</h4>
 
