@@ -51,7 +51,7 @@
     <li>O formato do json segue o padrão definido no arquivo: <strong>esquema_dados_modulo_extracao.json na pasta modelos</strong>.</li>
 </ul>
 <p>
-<img src="exemplo_resolucao_dgt.png" alt="imagem de uma Resolucao em fomrato pdf" width="400" height="500">
+<img src="imagens/exemplo_resolucao_dgt.png" alt="imagem de uma Resolucao em fomrato pdf" width="400" height="500">
 <h3>Cadastro</h3>
 <p>O módulo de cadastro permite que os usuários com permissão possam cadastrar novas resoluções em formato zip informando ano e tipo da resolução no sistema, para ter acesso ao cadastro o usuário vai ter de realizar o login e autenticar sua sessão, as resoluções cadastradas devem estar disponíveis para acesso em formato pdf através de um link. </p>
 
