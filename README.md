@@ -46,7 +46,7 @@
 
 <p>Funcionalidades do sistema:</p>
 <ul>
-    <li>Recebe link do cadastro de resoluções e faz a extração dos dados de uma resolução.</li>
+    <li>Recebe link do cadastro de resoluções e faz a extração dos dados de uma resolução, formato do json recebido é <strong>esquema_requisicao_para_ocr</strong>.</li>
     <li>Função definida: recebe como parâmetro um arquivo pdf e retorna um json de resposta com os dados do pdf.</li>
     <li>O formato do json segue o padrão definido no arquivo: <strong>esquema_dados_modulo_extracao.json na pasta modelos</strong>.</li>
 </ul>
@@ -65,7 +65,7 @@
     <li>Cadastro de resoluções em arquivo compactado (formato zip) informando o ano e tipo(CONSEP ou CONSU).</li>
     <li>Extrair o arquivo o zip e separar as resoluções por tipo e ano</li>
     <li>Disponibilizar acesso as resoluções em formato pdf com link de acesso(sugestão google drive)</li>
-    <li>Enviar requisições ao módulo OCR passando o link para pdf</li>
+    <li>Enviar requisições ao módulo OCR passando o link para pdf, utilizar json no formato <strong>esquema_requisicao_para_ocr</strong></li>
     <li>Enviar json de resoluções extraidas para o módulo de armazenamento cadastrar a nova resolução</li>
 </ul>
 
