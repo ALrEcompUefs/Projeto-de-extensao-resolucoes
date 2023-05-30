@@ -46,7 +46,7 @@
 
 <p>Funcionalidades do sistema:</p>
 <ul>
-    <li>Acessa o armazenamento de resoluções e faz a extração dos dadas de cada resolução uma a uma.</li>
+    <li>Recebe link do cadastro de resoluções e faz a extração dos dados de uma resolução.</li>
     <li>Função definida: recebe como parâmetro um arquivo pdf e retorna um json de resposta com os dados do pdf.</li>
     <li>O formato do json segue o padrão definido no arquivo: <strong>esquema_dados_modulo_extracao.json na pasta modelos</strong>.</li>
 </ul>
