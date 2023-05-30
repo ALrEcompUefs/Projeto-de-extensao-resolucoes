@@ -85,7 +85,11 @@
     <li>Resoluções  já existentes no banco não devem ser cadastradas.</li>
     <li>O sistema deve indexar os dados.</li>
     <li>Deve permitir consulta dos dados, vai receber um json com dados chave para consulta e realizar a query correspondente.</li>
-    json deve ter os seguintes campos: keywords, from(data de início), to (data final)
-    <li>Deve retornar como resposta para uma requisição recebida um json com dados no formato  <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/tree/main/modelos_json">esquema_resposta_busca_bd</a></li>
+    <li>json deve ter os seguintes campos: keywords, from(data de início), to (data final)</li>
+    <li>A requisição com os parametros de busca segue o formato 
+         <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/tree/main/modelos_json">
+            <strong>esquema_parametros_busca</strong></a></li>
+    <li>Deve retornar como resposta para uma requisição recebida um json com dados no formato  
+        <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/tree/main/modelos_json"><strong>esquema_resposta_busca_bd</strong></a></li>
 </ul>
 
