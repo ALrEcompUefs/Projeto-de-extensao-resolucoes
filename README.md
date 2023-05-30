@@ -26,7 +26,6 @@
 <ul>
     <li>Cadastrar/Remover usuários</li>
     <li>Alterar senha dos usuários</li>
-    <li>Acesso ao Log do sistema</li>
     <li>Listar usuários</li>
 </ul>
 <p>Funcionalidades do usuário:</p>
@@ -73,13 +72,14 @@
 
 <p>Implementa o banco de dados do sistema onde os dados são indexados e podem ser recuperados nas consultas ao banco, o esquema de dados e tipo de banco relacional, não relacional e outros fica a cargo da equipe.</p>
 
-<p>Funcionalidades do sistema:</p>
+<p>Funcionalidades:</p>
 
 <ul>
-    <li>Recebe uma requisição formatada no modelo json <strong>esquema_dados_modulo_extracao.json.</strong> e armazena no banco de dados</li>
+    <li>Recebe uma requisição json <strong>esquema_dados_modulo_extracao.json.</strong> e armazena no banco de dados</li>
     <li>Resoluções  já existentes no banco não devem ser cadastradas.</li>
     <li>O sistema deve indexar os dados.</li>
     <li>Deve permitir consulta dos dados, vai receber um json com dados chave para consulta e realizar a query correspondente.</li>
+    json deve ter os seguintes campos: keywords, from(data de início), to (data final)
     <li>Deve retornar como resposta para uma requisição recebida um json com dados no formato *formato_não_estabelecido*</li>
 </ul>
 
