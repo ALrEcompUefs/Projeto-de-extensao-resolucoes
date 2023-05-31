@@ -6,13 +6,14 @@
 <p>O projeto consiste no desenvolvimento de um engenho de busca para resoluções da UEFS, o sistema deve permite o cadastro de resoluções, busca de resoluções por ano , tipo, texto e etc.</p>
 <h3>Sobre o projeto</h3>
 
-<p>O projeto é dividido em quatro módulos individuais são eles: gerenciamento de usuários ,cadastro de resoluções ,armazenamento de dado e busca, módulo de extração de dados, a fim de que os módulos fossem desenvolvidos independentes um dos outros foi estabelecido que a comunicação entre módulos seria feita através de APIs construídas junto aos módulos.</p>
+<p>O projeto é dividido em quatro módulos individuais são eles: gerenciamento de usuários ,cadastro de resoluções ,armazenamento de dados e busca, módulo de extração de dados, a fim de que os módulos fossem desenvolvidos independentes um dos outros foi estabelecido que a comunicação entre módulos seria feita através de APIs construídas junto aos módulos.</p>
 
 <h4>Links de referência</h4>
 
 <ul>
 <li> <a  target="_blank"href="https://sites.google.com/a/ecomp.uefs.br/joao/home/courses/exa844">Site da disciplina</li><a>
-<li><a  target="_blank" href="https://www.uefs.br/modules/conteudo/conteudo.php?conteudo=146">Página com resoluções</a></li>
+<li><a   href="https://www.uefs.br/modules/conteudo/conteudo.php?conteudo=146" target="_blank">Página com resoluções</a></li>
+<li><a href="http://uefsresolve.ecompjr.com.br/" target="_blank">Antigo buscador de resoluções</a></li>
 </ul>
 
 <hr>
@@ -44,7 +45,7 @@
 </ul>
 
 <h3>Extração de dados</h3>
-<p>O módulo de extração de dados fica responsável pela extração dos dados das resoluções, o sistema acessa as resoluções em formato pdf faz a extração de dados e armazena no esquema estruturado definido para o projeto, algumas resoluções vão ser pdfs de documentos digitalizados sendo necessário utilizar Optical Character Recognition (OCR) para extrair os dados, o sistema deve gerar um json( no formato definido pelo projeto) para atender as requisições feitas na API construída. </p>
+<p>O módulo de extração de dados é responsável pela extração dos dados das resoluções, o sistema acessa as resoluções em formato pdf faz a extração de dados e armazena no esquema estruturado definido para o projeto, algumas resoluções vão ser pdfs de documentos digitalizados sendo necessário utilizar Optical Character Recognition (OCR) para extrair os dados, o sistema deve gerar um json( no formato definido pelo projeto) para atender as requisições feitas na API construída. </p>
 
 <p>Funcionalidades do sistema:</p>
 <ul>
@@ -78,7 +79,7 @@
 
 <h3>Armazenamento</h3>
 
-<p>Implementa o banco de dados do sistema onde os dados são indexados e podem ser recuperados nas consultas ao banco, o esquema de dados e tipo de banco relacional, não relacional e outros fica a cargo da equipe.</p>
+<p>Implementa o banco de dados do sistema onde os dados são indexados e podem ser recuperados nas consultas ao banco, o esquema de dados e tipo de banco: relacional, não relacional e outros fica a cargo da equipe.</p>
 
 <p>Funcionalidades:</p>
 
