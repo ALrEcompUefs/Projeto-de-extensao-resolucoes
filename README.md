@@ -26,13 +26,13 @@
 <h3>Gerenciamento de usuários </h3>
 <p>O módulo de gerenciamento de usuários é responsável pelo cadastro e controle de usuários, existem dois tipos de usuários: administrador e usuário, Administradores tem a função do controle de usuários no sistema enquanto usuários podem cadastrar resoluções e alterar seus dados cadastrais.</p>
 
-<p>Funcionalidades do Administrador:</p>
+<p>Permissões do Administrador:</p>
 <ul>
     <li>Cadastrar/Remover usuários</li>
     <li>Alterar senha dos usuários</li>
     <li>Listar usuários</li>
 </ul>
-<p>Funcionalidades do usuário:</p>
+<p>Permissões do usuário:</p>
 <ul>
     <li>Cadastrar resoluções (permissão)</li>
     <li>Alterar email e senha</li>
@@ -42,6 +42,7 @@
     <li>Gerar Token de autenticação do usuário </li>
     <li>Verificar login do usuário </li>
     <li>Informação de cadastro de usuário: nome , email e senha</li>
+    <li>Atualizar log de ações no sistema</li>
 </ul>
     <p>Telas do sistema</p>
     <p>O módulo de gerenciamento de usúarios deve implementar 4 telas</p>
