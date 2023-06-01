@@ -44,7 +44,7 @@
     <li>Informação de cadastro de usuário: nome , email e senha</li>
 </ul>
     <p>Telas do sistema</p>
-    <p>O módulo de gerenciamento de usúarios deve implementar 3 telas</p>
+    <p>O módulo de gerenciamento de usúarios deve implementar 4 telas</p>
     <ol>
      <li>Login</li>
      <li>Cadastro de usuario</li>
@@ -86,7 +86,7 @@
 </ul>
 
 <p>telas do sistema</p>
-<p>O módulo de cadasto deve implementar 4 telas</p>
+<p>O módulo de cadasto deve implementar 3 telas</p>
   <ol>  
      <li>Login</li>
      <li>Cadastro de resoluçao</li>
