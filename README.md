@@ -120,12 +120,13 @@
         }
 
   <p>Usando o algoritimo de busca implementado o sistema de armazenamento deve devolver um json com as resoluções que correspondem a busca, exemplo de resposta abaixo:</p>
-`
-    {
-        "ano":"2017",
-        "orgao":"CONSEP",
-        "descricao":"alteração do curriculo do curso ...... reforma",
-        "numero":"004/2017",
-        "link":"https://salvePdfs.com.br/store/cadastro-modulo/pdf1.pdf"
-    }
+    
+        {
+            "ano":"2017",
+            "orgao":"CONSEP",
+            "descricao":"alteração do curriculo do curso ...... reforma",
+            "numero":"004/2017",
+            "link":"https://salvePdfs.com.br/store/cadastro-modulo/pdf1.pdf"
+        }
+    
 
