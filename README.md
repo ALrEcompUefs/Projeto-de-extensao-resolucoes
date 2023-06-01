@@ -78,7 +78,7 @@
     <li>Realizar login do usuário, faz uma requisição ao sistema de gerenciamento de usuário e recebe como resposta um token informando a sessão autenticada e as permissões do usuário.</li>
     <li>Cadastro de resoluções em arquivo compactado (formato zip) informando o ano e tipo(CONSEP ou CONSU).</li>
     <li>Extrair o arquivo o zip e separar as resoluções por tipo e ano</li>
-    <li>Ao cadastrar um zip de resolução o sistema de cadastro deve enviar uma mensagem para o gerenciamento de usuario informando o usúario e timestamp da açao</li>
+    <li>Ao cadastrar um zip de resolução o sistema de cadastro deve enviar uma mensagem para o gerenciamento de usuario informando o usúario e timestamp da aço</li>
     <li>Disponibilizar acesso as resoluções em formato pdf com link de acesso(sugestão google drive)</li>
     <li>Enviar requisições ao módulo OCR passando o link para pdf, utilizar json no formato 
          <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/blob/main/modelos_json/esquema_requisicao_para_ocr.json"><strong>esquema_requisicao_para_ocr</strong></a></li>
