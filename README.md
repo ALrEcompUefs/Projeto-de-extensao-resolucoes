@@ -56,11 +56,11 @@
 <p>Funcionalidades do sistema:</p>
 <ul>
     <li>Recebe uma requisição do cadastro de resoluções que possui o link para um pdf baixa o pdf,faz a extração dos dados, formato do json recebido é 
-        <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/tree/main/modelos_json">
+        <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/blob/main/modelos_json/esquema_requisicao_para_ocr.json">
             <strong>esquema_requisicao_para_ocr</strong></a>.</li>
     <li>Função definida: recebe como parâmetro um arquivo pdf e retorna um json de resposta com os dados do pdf.</li>
     <li>O formato do json de resposta segue o padrão definido no arquivo:
-         <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/tree/main/modelos_json">
+         <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/blob/main/modelos_json/esquema_dados_modulo_extracao.json">
             <strong>esquema_dados_modulo_extracao.json na pasta modelos</strong></a>.</li>
 </ul>
 
@@ -79,7 +79,7 @@
     <li>Extrair o arquivo o zip e separar as resoluções por tipo e ano</li>
     <li>Disponibilizar acesso as resoluções em formato pdf com link de acesso(sugestão google drive)</li>
     <li>Enviar requisições ao módulo OCR passando o link para pdf, utilizar json no formato 
-         <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/tree/main/modelos_json"><strong>esquema_requisicao_para_ocr</strong></a></li>
+         <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/blob/main/modelos_json/esquema_requisicao_para_ocr.json"><strong>esquema_requisicao_para_ocr</strong></a></li>
     <li>Enviar json de resoluções extraidas para o módulo de armazenamento cadastrar a nova resolução</li>
 </ul>
 
@@ -99,17 +99,17 @@
 <p>Funcionalidades:</p>
 
 <ul>
-    <li>Recebe uma requisição json  <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/tree/main/modelos_json"><strong>esquema_dados_modulo_extracao.json.</strong></a>
+    <li>Recebe uma requisição json  <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/blob/main/modelos_json/esquema_dados_modulo_extracao.json"><strong>esquema_dados_modulo_extracao.json.</strong></a>
      e armazena no banco de dados</li>
     <li>Resoluções  já existentes no banco não devem ser cadastradas.</li>
     <li>O sistema deve indexar os dados.</li>
     <li>Deve permitir consulta dos dados, vai receber um json com dados chave para consulta e realizar a query correspondente.</li>
     <li>json deve ter os seguintes campos: keywords, from(data de início), to (data final)</li>
     <li>A requisição com os parametros de busca segue o formato 
-         <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/tree/main/modelos_json">
+         <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/blob/main/modelos_json/esquema_resposta_busca_bd.json">
             <strong>esquema_parametros_busca</strong></a></li>
     <li>Deve retornar como resposta para uma requisição recebida um json com dados no formato  
-        <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/tree/main/modelos_json"><strong>esquema_resposta_busca_bd</strong></a></li>
+        <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/blob/main/modelos_json/esquema_resposta_busca_bd.json"><strong>esquema_resposta_busca_bd</strong></a></li>
 </ul>
 <p>exemplo de uma requisição de busca para o sistema de armazenamento, ao receber uma requisição com o json no modelo abaixo:</p> 
 ```
