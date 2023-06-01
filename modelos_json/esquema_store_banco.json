@@ -6,5 +6,5 @@
 	"cabecalho":"todo texto até a palavra resolve",
 	"texto":" todo texto da resolução",
 	"link":"Link de acesso para o pdf da resolução",
-  "email_usuario":"email do usuario que cadastrou a resolução"
+  	"email_usuario":"email do usuario que cadastrou a resolução"
 }
