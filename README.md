@@ -95,6 +95,7 @@
             <strong>esquema_parametros_busca</strong></a></li>
     <li>Deve retornar como resposta para uma requisição recebida um json com dados no formato  
         <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/tree/main/modelos_json"><strong>esquema_resposta_busca_bd</strong></a></li>
+</ul>
 <p>exemplo de uma requisição de busca para o sistema de armazenamento, ao receber uma requisição com o json no modelo abaixo:</p> 
  ```
     {
@@ -113,5 +114,4 @@
         "link":"https://salvePdfs.com.br/store/cadastro-modulo/pdf1.pdf"
     }
 ```
-</ul>
 
