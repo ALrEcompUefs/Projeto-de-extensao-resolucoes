@@ -46,10 +46,11 @@
     <p>Telas do sistema</p>
     <p>O módulo de gerenciamento de usúarios deve implementar 3 telas</p>
     <ol>
-        <li>Login</li>
-        <li>Cadastro de resoluçao</li>
-        <li>Tela de busca</li>
-    </ol>
+     <li>Login</li>
+     <li>Cadastro de usuario</li>
+     <li>Dados do usuario</li>
+     <li>Log do sistema</li>
+ </ol>
 <h3>Extração de dados</h3>
 <p>O módulo de extração de dados é responsável pela extração dos dados das resoluções, o sistema acessa as resoluções em formato pdf faz a extração de dados e armazena no esquema estruturado definido para o projeto, algumas resoluções vão ser pdfs de documentos digitalizados sendo necessário utilizar Optical Character Recognition (OCR) para extrair os dados, o sistema deve gerar um json( no formato definido pelo projeto) para atender as requisições feitas na API construída. </p>
 
@@ -77,6 +78,7 @@
     <li>Realizar login do usuário, faz uma requisição ao sistema de gerenciamento de usuário e recebe como resposta um token informando a sessão autenticada e as permissões do usuário.</li>
     <li>Cadastro de resoluções em arquivo compactado (formato zip) informando o ano e tipo(CONSEP ou CONSU).</li>
     <li>Extrair o arquivo o zip e separar as resoluções por tipo e ano</li>
+    <li>Ao cadastrar um zip de resolução o sistema de cadastro deve enviar uma mensagem para o gerenciamento de usuario informando o usúario e timestamp da açao</li>
     <li>Disponibilizar acesso as resoluções em formato pdf com link de acesso(sugestão google drive)</li>
     <li>Enviar requisições ao módulo OCR passando o link para pdf, utilizar json no formato 
          <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/blob/main/modelos_json/esquema_requisicao_para_ocr.json"><strong>esquema_requisicao_para_ocr</strong></a></li>
@@ -85,13 +87,11 @@
 
 <p>telas do sistema</p>
 <p>O módulo de cadasto deve implementar 4 telas</p>
-  <ol>
+  <ol>  
      <li>Login</li>
-     <li>Cadastro de usuario</li>
-     <li>Dados do usuario</li>
-     <li>Log do sistema</li>
- </ol>
-    
+     <li>Cadastro de resoluçao</li>
+     <li>Tela de busca</li>
+</ol>
 <h3>Armazenamento</h3>
 
 <p>Implementa o banco de dados do sistema onde os dados são indexados e podem ser recuperados nas consultas ao banco, o esquema de dados e tipo de banco: relacional, não relacional e outros fica a cargo da equipe.</p>
