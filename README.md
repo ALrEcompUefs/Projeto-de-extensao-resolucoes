@@ -80,7 +80,7 @@
     <li>Disponibilizar acesso as resoluções em formato pdf com link de acesso(sugestão google drive)</li>
     <li>Enviar requisições ao módulo OCR passando o link para pdf, utilizar json no formato 
          <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/blob/main/modelos_json/esquema_requisicao_para_ocr.json"><strong>esquema_requisicao_para_ocr</strong></a></li>
-    <li>Enviar json de resoluções extraidas para o módulo de armazenamento cadastrar a nova resolução</li>
+    <li>Enviar json de resoluções extraidas para o módulo de armazenamento cadastrar a nova resolução, usar json no formato <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/blob/main/modelos_json/esquema_store_banco.json"><strong>esquema_store_banco</strong></a></li>
 </ul>
 
 <p>telas do sistema</p>
