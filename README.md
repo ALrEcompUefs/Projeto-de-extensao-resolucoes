@@ -43,8 +43,8 @@
     <li>Verificar login do usuário </li>
     <li>Informação de cadastro de usuário: nome , email e senha</li>
 </ul>
-    <p>telas do sistema</p>
-    <p>O módulo de gerenciamento de us deve implementar 3 telas</p>
+    <p>Telas do sistema</p>
+    <p>O módulo de gerenciamento de usúarios deve implementar 3 telas</p>
     <ol>
         <li>Login</li>
         <li>Cadastro de resoluçao</li>
