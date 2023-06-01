@@ -86,7 +86,7 @@
     <li>Enviar json de resoluções extraidas para o módulo de armazenamento cadastrar a nova resolução, usar json no formato <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/blob/main/modelos_json/esquema_store_banco.json"><strong>esquema_store_banco</strong></a></li>
 </ul>
 
-<p>telas do sistema</p>
+<p>Telas do sistema</p>
 <p>O módulo de cadasto deve implementar 3 telas</p>
   <ol>  
      <li>Login</li>
