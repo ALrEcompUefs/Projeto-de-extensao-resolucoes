@@ -43,7 +43,14 @@
     <li>Verificar login do usuário </li>
     <li>Informação de cadastro de usuário: nome , email e senha</li>
 </ul>
-
+    <p>telas do sistema</p>
+    <p>O módulo de cadasto deve implementar 4 telas</p>
+    <ol>
+        <li>Login</li>
+        <li>Cadastro de usuario</li>
+        <li>Dados do usuario</li>
+        <li>Log do sistema</li>
+    </ol>
 <h3>Extração de dados</h3>
 <p>O módulo de extração de dados é responsável pela extração dos dados das resoluções, o sistema acessa as resoluções em formato pdf faz a extração de dados e armazena no esquema estruturado definido para o projeto, algumas resoluções vão ser pdfs de documentos digitalizados sendo necessário utilizar Optical Character Recognition (OCR) para extrair os dados, o sistema deve gerar um json( no formato definido pelo projeto) para atender as requisições feitas na API construída. </p>
 
