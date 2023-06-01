@@ -114,8 +114,3 @@
         "link":"https://salvePdfs.com.br/store/cadastro-modulo/pdf1.pdf"
     }
 `
-`
-function test() {
-  console.log("notice the blank line before this function?");
-}
-`
