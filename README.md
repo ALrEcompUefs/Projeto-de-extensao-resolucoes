@@ -83,14 +83,14 @@
     <li>Enviar json de resoluções extraidas para o módulo de armazenamento cadastrar a nova resolução</li>
 </ul>
 
-    <p>telas do sistema</p>
-    <p>O módulo de cadasto deve implementar 4 telas</p>
-    <ol>
-        <li>Login</li>
-        <li>Cadastro de usuario</li>
-        <li>Dados do usuario</li>
-        <li>Log do sistema</li>
-    </ol>
+<p>telas do sistema</p>
+<p>O módulo de cadasto deve implementar 4 telas</p>
+  <ol>
+     <li>Login</li>
+     <li>Cadastro de usuario</li>
+     <li>Dados do usuario</li>
+     <li>Log do sistema</li>
+ </ol>
     
 <h3>Armazenamento</h3>
 
