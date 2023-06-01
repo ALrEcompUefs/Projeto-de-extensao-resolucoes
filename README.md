@@ -95,5 +95,23 @@
             <strong>esquema_parametros_busca</strong></a></li>
     <li>Deve retornar como resposta para uma requisição recebida um json com dados no formato  
         <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/tree/main/modelos_json"><strong>esquema_resposta_busca_bd</strong></a></li>
+<p>exemplo de uma requisição de busca para o sistema de armazenamento, ao receber uma requisição com o json no modelo abaixo:</p>
+  ```
+    {
+    "palavras_chave":"engenharia de computação graduação CONSEP",
+    "data_inicio":"",
+    "data_final":"2018"
+    }
+  ```
+  <p>Usando o algoritimo de busca implementado o sistema de armazenamento deve devolver um json com as resoluções que correspondem a busca, exemplo de resposta abaixo:</p>
+    ```
+    {
+        "ano":"2017",
+        "orgao":"CONSEP",
+        "descricao":"alteração do curriculo do curso ...... reforma",
+        "numero":"004/2017",
+        "link":"https://salvePdfs.com.br/store/cadastro-modulo/pdf1.pdf"
+    }
+     ```
 </ul>
 
