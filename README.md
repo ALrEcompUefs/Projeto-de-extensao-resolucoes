@@ -61,7 +61,7 @@
     <li>Função definida: recebe como parâmetro um arquivo pdf e retorna um json de resposta com os dados do pdf.</li>
     <li>O formato do json de resposta segue o padrão definido no arquivo:
          <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/blob/main/modelos_json/esquema_dados_modulo_extracao.json">
-            <strong>esquema_dados_modulo_extracao.json na pasta modelos</strong></a>.</li>
+            <strong>esquema_dados_modulo_extracao</strong></a> na pasta modelos.</li>
 </ul>
 
 <p>Na imagem abaixo é o mostrado recorte de uma resolução e são destacados os dados que devem ser extraídos dos documentos com exceção do reitor que pode ser encontrado ao final do documento.</p>
@@ -99,7 +99,7 @@
 <p>Funcionalidades:</p>
 
 <ul>
-    <li>Recebe uma requisição json  <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/blob/main/modelos_json/esquema_dados_modulo_extracao.json"><strong>esquema_dados_modulo_extracao.json.</strong></a>
+    <li>Recebe uma requisição json  <a href="https://github.com/ALrEcompUefs/Projeto-de-extensao-resolucoes/blob/main/modelos_json/esquema_store_banco.json"><strong>esquema_store_banco.</strong></a>
      e armazena no banco de dados</li>
     <li>Resoluções  já existentes no banco não devem ser cadastradas.</li>
     <li>O sistema deve indexar os dados.</li>
