@@ -90,7 +90,7 @@
 <p>O módulo de cadasto deve implementar 3 telas</p>
   <ol>  
      <li>Login</li>
-     <li>Cadastro de resoluçao</li>
+     <li>Cadastro de resolução</li>
      <li>Tela de busca</li>
 </ol>
 <h3>Armazenamento</h3>
