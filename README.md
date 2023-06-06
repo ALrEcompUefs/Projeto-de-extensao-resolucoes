@@ -14,6 +14,8 @@
 <li> <a  target="_blank"href="https://sites.google.com/a/ecomp.uefs.br/joao/home/courses/exa844">Site da disciplina</li><a>
 <li><a   href="https://www.uefs.br/modules/conteudo/conteudo.php?conteudo=146" target="_blank">Página com resoluções</a></li>
 <li><a href="http://uefsresolve.ecompjr.com.br/" target="_blank">Antigo buscador de resoluções</a></li>
+<li><a href="https://drive.google.com/drive/u/0/mobile/folders/1ZUBa6Zw66g9K-7wTkEZN89sSaiRmS7ve?usp=sharing" >Resoluções CONSEP</li>
+<li><a href="https://drive.google.com/drive/u/0/mobile/folders/1bhNx8srRSIEhyIRd3r9RYCJ7YHaSYjOS?usp=sharing" >Resoluções CONSU</li>
 </ul>
 
 <hr>
