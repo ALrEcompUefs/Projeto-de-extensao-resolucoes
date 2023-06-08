@@ -1,4 +1,5 @@
-LINK DO REPOSITÓRIO: https://github.com/KevinCerqueira/exa844-projeto-extensao
+[LINK PARA O REPOSITÓRIO](https://github.com/KevinCerqueira/exa844-projeto-extensao "@KevinCerqueira")
+
 # Projeto de Extensão - OCR
 
 Componente Curricular: EXA844 - Programação para Redes
@@ -9,6 +10,7 @@ Componente Curricular: EXA844 - Programação para Redes
 - [Kevin Cerqueira](https://github.com/KevinCerqueira)
 
 ## Sumário
+
 - [Documentação da API](#documentação-da-api)
 - [Rodando a API localmente](#rodando-a-api-localmente)
 - [Como realizar o deploy no Google Cloud](#como-realizar-o-deploy-no-google-cloud)
