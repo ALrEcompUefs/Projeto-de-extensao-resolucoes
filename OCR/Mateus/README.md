@@ -16,6 +16,7 @@ Para poder utilizar essa API, é necessário que tenha em sua máquina a *Engine
     - ```sudo apt-get install tesseract -y```
 - Windows
     - Basta seguir as instruções contidas [aqui](https://tesseract-ocr.github.io/tessdoc/Installation.html).
+
 Outra dependência é necessária caso esteja em máquinas Linux, a *poppler-utils*, caso ainda não a possua:
 - ```sudo apt-get install poppler-utils -y```
 
