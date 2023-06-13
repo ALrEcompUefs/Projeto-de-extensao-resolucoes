@@ -71,6 +71,8 @@
 <p>Na imagem abaixo é o mostrado recorte de uma resolução e são destacados os dados que devem ser extraídos dos documentos com exceção do reitor que pode ser encontrado ao final do documento.</p>
 
 <img src="imagens/exemplo_resolucao_dgt.png" alt="imagem de uma Resolucao em fomrato pdf" width="600" height="400" align="center">
+   
+<p><strong>Observação</strong>: este é apenas um exemplo de formatação para resolução,existem outros formatos e o módulo OCR não deve se limitar para este exemplo</p>  
     
 <h3>Cadastro</h3>
 <p>O módulo de cadastro permite que os usuários com permissão possam cadastrar novas resoluções em formato zip informando ano e tipo da resolução no sistema, para ter acesso ao cadastro o usuário vai ter de realizar o login e autenticar sua sessão, as resoluções cadastradas devem estar disponíveis para acesso em formato pdf através de um link, ao cadastrar novas resoluções o sistema envia os links para o módulo OCR recebe os dados extraidos e envia para serem armazenados no banco de dados. </p>
